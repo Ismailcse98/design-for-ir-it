@@ -117,6 +117,11 @@ Footer Section
 .footer-section{
 	padding: 70px 0;
 }
+.footer-section .footer-content h2{
+	color: #F14808;
+	font-size: 45px;
+	font-weight: bold;
+}
 .social-icon ul li a{
 	display: inline-block;
 	width: 30px;
