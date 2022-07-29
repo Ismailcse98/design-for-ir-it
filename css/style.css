@@ -1,0 +1,128 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+img{
+	width: 100%;
+}
+/*==============================
+navbar custom css
+===============================*/
+.nav-section{
+	background-color: #202C45;
+}
+.logo{
+	color: #F14808;
+	font-weight: bold;
+	font-size: 48px;
+}
+.nav-section .navbar-nav .nav-link.active,
+.nav-section .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-section .navbar-brand:focus,
+.nav-section .navbar-brand:hover {
+    color: #F14808;
+}
+.nav-section .form-control{
+    border: 2px solid #F14808;
+    outline: none;
+}
+.nav-section .btn-outline-success{
+	background-color: #F14808;
+	color: #fff;
+	border: none;
+}
+.nav-section .navbar-toggler {
+    background-color: #F14808;
+}
+/*=========================
+Banner Section
+============================*/
+.main-banner{
+	position: relative;
+}
+.main-banner:before{
+	content: '';
+	position: absolute;
+	background: #000;
+	opacity: 0.6;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.main-banner .banner-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+/*=========================
+Course Section
+============================*/
+.course-section{
+	margin: 50px 0;
+}
+.course-section .course-price{
+	color: #2E99D4;
+}
+.course-section .view-course{
+	margin: 35px 0;
+}
+/*=========================
+Explore institute Section
+============================*/
+.explore-inst-section{
+	margin: 50px 0;
+}
+.explore-content{
+	background: #F6F9FB;
+	padding: 7px;
+}
+.explore-content .course-info{
+	margin: 25px 0;
+}
+.explore-content h3{
+	font-size: 18px;
+	color: #444;
+}
+/*=========================
+Ready to join Section
+============================*/
+.join-us-section{
+	margin: 50px 0;
+}
+.join-us-section .join-content{
+	background: #2E99D4;
+	padding: 25px 35px;
+}
+.join-us-section .join-content .join-button button{
+	color: #2E99D4;
+}
+/*=========================
+Students ,Queston, Company Logo Section
+============================*/
+.students-section,
+.questoin-section,
+.companies-section{
+	margin: 70px 0;
+}
+/*=========================
+Footer Section
+============================*/
+.footer-section{
+	padding: 70px 0;
+}
+.social-icon ul li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background: #999;
+	text-align: center;
+	border-radius: 50%;
+	line-height: 30px;
+}
